@@ -277,6 +277,11 @@ Contact Me
   display: none;
 }
 
+.email a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
 /* 
 
 
