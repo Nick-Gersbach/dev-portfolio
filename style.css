@@ -167,6 +167,11 @@ Showcase
 */
 
 .showcase {
+  height: 100vh;
+  margin-top: 4rem;
+}
+
+.showcase-text-pic-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -309,9 +314,6 @@ About Me
 
 */
 
-#about-me {
-  margin-top: 7rem;
-}
 #about-me h3 {
   transition: transform 1s;
 }
@@ -334,6 +336,15 @@ Media Queries
 
 */
 
+@media only screen and (max-width: 1200px) {
+  .showcase {
+    height: auto;
+  }
+
+  #about-me {
+    margin-top: 8rem;
+  }
+}
 @media only screen and (max-width: 767px) {
   header {
     padding: 15px;
@@ -348,7 +359,10 @@ Media Queries
   }
 
   .showcase {
-    display: flex;
+    height: auto;
+  }
+
+  .showcase-text-pic-container {
     flex-direction: column;
   }
 
