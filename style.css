@@ -314,6 +314,10 @@ About Me
 
 */
 
+#about-me {
+  margin-top: -12rem;
+}
+
 #about-me h3 {
   transition: transform 1s;
 }
