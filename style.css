@@ -28,7 +28,7 @@ body {
   font-family: "Lato", sans-serif;
   line-height: 1.7;
   letter-spacing: 1px;
-  background: #f1f1f1;
+  background: #fff;
 }
 
 .container {
@@ -332,6 +332,40 @@ About Me
 
 
 
+Featured Projects
+
+
+
+
+
+*/
+
+#featured-projects {
+  margin-top: 7rem;
+}
+
+.featured-project {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.featured-project-text {
+  padding-left: 4rem;
+}
+
+.featured-project-link {
+  color: #007bff;
+  padding: 0 10px;
+}
+
+/* 
+
+
+
+
+
+
 Media Queries
 
 
@@ -411,5 +445,23 @@ Media Queries
 
   #about-me {
     margin-top: 5rem;
+  }
+
+  #featured-projects {
+    margin-top: 4rem;
+  }
+
+  .featured-project {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .featured-project-text {
+    padding-left: 0rem;
+  }
+
+  .featured-project-img img {
+    width: 100%;
+    height: auto;
   }
 }
