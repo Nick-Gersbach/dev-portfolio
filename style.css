@@ -26,7 +26,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
-  line-height: 1.7;
+
   letter-spacing: 1px;
   background: #fff;
 }
@@ -43,6 +43,10 @@ body {
   color: #afafbf;
 }
 
+.dark-mode-text {
+  color: #afafbf;
+}
+
 .bold-text {
   font-weight: 900;
 }
@@ -53,6 +57,7 @@ body {
 
 p {
   font-weight: 300;
+  line-height: 1.7;
 }
 
 a {
@@ -175,6 +180,10 @@ Showcase
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.showcase-greeting {
+  line-height: 1.7;
 }
 
 .showcase-greeting h1 {
@@ -318,13 +327,6 @@ About Me
   margin-top: -12rem;
 }
 
-#about-me h3 {
-  transition: transform 1s;
-}
-#about-me h3:hover {
-  transform: translateX(2%);
-}
-
 /* 
 
 
@@ -361,6 +363,50 @@ Featured Projects
 .featured-project-link {
   color: #007bff;
   padding: 0 10px;
+}
+
+/* 
+
+
+
+
+
+
+Other Projects
+
+
+
+
+
+*/
+
+.other-project-title {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0px;
+}
+
+.other-project-title a {
+  margin-bottom: -20px;
+  transition: transform 0.3s ease-in-out;
+  color: black;
+}
+.other-project-title a.other-project-icon:hover {
+  transform: translateX(20%);
+}
+
+.fa-arrow-right {
+  padding-left: 10px;
+  color: #007bff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.other-project-tech-used span {
+  color: #007bff;
+  border: 1px solid #007bff;
+  padding: 0 10px;
+  margin: 0 5px;
 }
 
 /* 
