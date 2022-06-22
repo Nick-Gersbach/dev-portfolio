@@ -380,6 +380,10 @@ Other Projects
 
 */
 
+.other-project {
+  padding-bottom: 3rem;
+}
+
 .other-project-title {
   display: flex;
   align-items: center;
@@ -405,8 +409,36 @@ Other Projects
 .other-project-tech-used span {
   color: #007bff;
   border: 1px solid #007bff;
-  padding: 0 10px;
+  padding: 5px 10px;
   margin: 0 5px;
+}
+
+/* 
+
+
+
+
+
+
+Footer
+
+
+
+
+
+*/
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+.footer-link {
+  padding: 0px 10px;
+  color: #007bff;
 }
 
 /* 
@@ -513,5 +545,13 @@ Media Queries
   .featured-project-img img {
     width: 100%;
     height: auto;
+  }
+
+  #other-projects {
+    margin-top: 6rem;
+  }
+
+  footer {
+    flex-direction: column;
   }
 }
