@@ -350,6 +350,10 @@ Featured Projects
   justify-content: space-evenly;
 }
 
+.featured-project-img img {
+  width: 800px;
+}
+
 .featured-project-text {
   padding-left: 4rem;
 }
