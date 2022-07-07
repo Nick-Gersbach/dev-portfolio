@@ -350,6 +350,7 @@ Featured Projects
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-top: 5rem;
 }
 
 .featured-project-img img {
@@ -380,8 +381,13 @@ Other Projects
 
 */
 
+#other-projects h2 {
+  margin-top: 10rem;
+}
+
 .other-project {
   padding-bottom: 3rem;
+  margin-top: 2rem;
 }
 
 .other-project-title {
@@ -547,8 +553,19 @@ Media Queries
     height: auto;
   }
 
+  #other-projects h2 {
+    margin-top: 8rem;
+  }
+
   #other-projects {
     margin-top: 6rem;
+  }
+
+  .other-project-tech-used span {
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 5px 10px;
+    margin: 0;
   }
 
   footer {
