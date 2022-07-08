@@ -470,6 +470,29 @@ Media Queries
   #about-me {
     margin-top: 8rem;
   }
+
+  #featured-projects {
+    margin-top: 6rem;
+  }
+
+  .featured-project {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .featured-project-text {
+    padding-left: 0rem;
+    text-align: center;
+  }
+
+  .featured-project-text h4 {
+    text-align: center;
+  }
+
+  .featured-project-img img {
+    width: 100%;
+    height: auto;
+  }
 }
 @media only screen and (max-width: 767px) {
   header {
