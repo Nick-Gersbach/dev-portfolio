@@ -476,6 +476,10 @@ Media Queries
     padding: 15px;
   }
 
+  h2 {
+    text-align: center;
+  }
+
   .container {
     padding: 0 2rem;
   }
@@ -548,6 +552,10 @@ Media Queries
     padding-left: 0rem;
   }
 
+  .featured-project-text h4 {
+    text-align: center;
+  }
+
   .featured-project-img img {
     width: 100%;
     height: auto;
@@ -561,11 +569,16 @@ Media Queries
     margin-top: 6rem;
   }
 
+  .other-project-tech-used {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .other-project-tech-used span {
     color: #007bff;
     border: 1px solid #007bff;
-    padding: 5px 10px;
-    margin: 0;
+    padding: 5px 8px;
+    margin: 5px;
   }
 
   footer {
